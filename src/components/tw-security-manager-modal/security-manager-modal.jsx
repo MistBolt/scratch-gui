@@ -98,7 +98,8 @@ SecurityManagerModalComponent.propTypes = {
 };
 
 // Prevent accidentally pressing buttons immediately when a prompt appears.
-const BUTTON_DELAY = 750;
+// nuh uh, i hate this, its better without the delay
+const BUTTON_DELAY = 0;
 export default DelayedMountPropertyHOC(injectIntl(SecurityManagerModalComponent), BUTTON_DELAY, {
     enableButtons: true
 });
