@@ -27,7 +27,6 @@ jobs:
     - run: npm ci
     - run: npm run build
       env:
-        NODE_ENV: production
         ROUTING_STYLE: hash
     - name: Upload pages artifact
       uses: actions/upload-pages-artifact@v3
