@@ -22,22 +22,6 @@ const messages = defineMessages({
 
 const CustomProcedures = props => {
     const [inputIcon, setInputIcon] = useState(textInputIcon);
-    useEffect(() => {
-        switch (props.menuOption) {
-            case "stringornumber": // To be split up as string and number types on a later date
-                setInputIcon(textInputIcon);
-                break;
-            case "boolean":
-                setInputIcon(booleanInputIcon);
-                break;
-            case "object":
-                setInputIcon(objectInputIcon);
-                break;
-            case "array":
-                setInputIcon(arrayInputIcon);
-                break;
-        };
-    }, [props.menuOption]);
 
     return (
         <Modal
