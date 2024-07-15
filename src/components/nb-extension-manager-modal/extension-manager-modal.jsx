@@ -18,10 +18,6 @@ const messages = defineMessages({
 const ExtensionManagerModal = props => {
     const [loadedExtensions, setLoadedExtensions] = useState(Array.from(props.vm.extensionManager._loadedExtensions));
 
-    useEffect(() => {
-        setLoadedExtensions(Array.from(props.vm.extensionManager._loadedExtensions));
-    }, [props.vm.extensionManager._loadedExtensions]);
-
     let loadedAmountText;
     if (loadedExtensions.length == 0) {
         loadedAmountText = 'No extensions loaded';
