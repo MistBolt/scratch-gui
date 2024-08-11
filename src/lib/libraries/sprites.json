@@ -9062,13 +9062,13 @@
         "variables": {},
         "costumes": [
             {
-                "assetId": "1d9b10ec091c86e27e69854b933bc90d",
+                "assetId": "592816f56409d582603c485cbefcbbb8",
                 "name": "neigh pony",
                 "bitmapResolution": 1,
-                "md5ext": "1d9b10ec091c86e27e69854b933bc90d.svg",
+                "md5ext": "592816f56409d582603c485cbefcbbb8.svg",
                 "dataFormat": "svg",
-                "rotationCenterX": 73.981,
-                "rotationCenterY": 77.163
+                "rotationCenterX": 74,
+                "rotationCenterY": 78
             }
         ],
         "sounds": [
